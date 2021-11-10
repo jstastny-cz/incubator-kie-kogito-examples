@@ -77,9 +77,11 @@ In this Quickstart we'll be using [Keycloak](https://www.keycloak.org/) as *Auth
 It will install the *Kogito Realm* that comes with a predefined set of users:
 | Login         | Password   | Roles               |
 | ------------- | ---------- | ------------------- |
-|    admin      |   admin    | *admin*, *managers* |
-|    alice      |   alice    | *user*              |
-|    jdoe       |   jdoe     | *managers*          |
+|    admin      |   admin    | *managers*          |
+|    alice      |   alice    | *HR*                |
+|    paul       |   paul     | *HR*                |
+|    jdoe       |   jdoe     | *IT*                |
+|    mary       |   mary     | *IT*                |
 
 Once Keycloak is started, you should be able to access your *Keycloak Server* at [localhost:8480/auth](http://localhost:8480/auth) with *admin* user.
 
